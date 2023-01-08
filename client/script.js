@@ -5,6 +5,8 @@ import user from './assets/user.svg';
 // Retrieve some html elements
 const form = document.querySelector('form');
 const chatContainer = document.querySelector('#chat_container');
+chatContainer.scrollTop = chatContainer.scrollHeight;
+
 
 let loadInterval;
 
@@ -28,11 +30,13 @@ function typeText(element, text) {
     if (index < text.length) {
       element.innerHTML += text.charAt(index);
       index++;
+      chatContainer.scrollTo(0, document.body.scrollHeight);
     } else {
       clearInterval(interval);
     }
   }, 20)
 }
+
 
 // Generate a unique id for each message
 function generateUniqueId() {
