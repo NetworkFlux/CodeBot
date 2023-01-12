@@ -21,4 +21,4 @@ This project is about setting up a Web App that will allow the user to interact 
 - Deployment for everybody to use
 
 ## Comments -- ⚙️
-This project is currently in its first version and would of course need some important updates. The main goal was to launch a usable Web App that uses the GPT-3 API to perform some automation.
+This project is currently in its first version and would of course need some important updates. The main goal was to launch a usable Web App that uses the GPT-3 API to perform some automation. Sorry, I didn't want to spend much time on the UI 😋.
